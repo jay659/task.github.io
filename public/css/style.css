@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main_div{
+display: flex;
+justify-content: center;
+
+align-items: center;
+
+
+
+}
+.first_button,.second_button{
+    
+    margin:10rem;
+    
+   
+}
+.button{
+    border-radius: 20% !important ;
+    font-size: 3rem !important;
+
+}
+.card{
+    font-size: 1.4rem !important;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header_main{
+    margin: 1rem;
+    font-size:2rem;
+}
+
+
+
+
+
+@media (max-width:500px){
+    .first_button,.second_button{
+        margin:5rem;
+    }
+    .btn{
+        font-size: 2rem !important;
+    }
+    .header_main,.header_dearch{
+        margin: .5rem;
+        font-size:1.5rem;
+    }
+}
